@@ -1,0 +1,181 @@
+version: "3.1"
+
+stories:
+
+- story: Answer to first question 
+  steps:
+  - intent: first_question
+  - action: utter_first
+
+- story: Answer to second question
+  steps:
+  - intent: second_question
+  - action: utter_second
+
+- story: Answer to third question
+  steps:
+  - intent: third_question
+  - action: utter_third
+
+- story: Answer to fourth question
+  steps:
+  - intent: fourth_question
+  - action: utter_four
+
+- story: Answer to fifth question
+  steps:
+  - intent: fifth_question
+  - action: utter_five
+
+- story: Answer to sixth question
+  steps:
+  - intent: sixth_question
+  - action: utter_six
+
+- story: Answer to seventh question
+  steps:
+  - intent: seventh_question
+  - action: utter_seven
+
+- story: Answer to eighth question
+  steps:
+  - intent: eighth_question
+  - action: utter_eight
+
+- story: Answer to ninth question
+  steps:
+  - intent: ninth_question
+  - action: utter_nine
+
+- story: Answer to tenth question
+  steps:
+  - intent: tenth_question
+  - action: utter_ten
+
+- story: Answer to eleventh question 
+  steps:
+  - intent: eleventh_question
+  - action: utter_eleven
+
+- story: Answer to twelfth question
+  steps:
+  - intent: twelfth_question
+  - action: utter_twelve
+
+- story: Answer to thirteenth question
+  steps:
+  - intent: thirteenth_question
+  - action: utter_thirteen
+
+- story: Answer to fourteenth question 
+  steps:
+  - intent: fourteenth_question
+  - action: utter_fourteen
+
+- story: Answer to fifteenth question
+  steps:
+  - intent: fifteenth_question
+  - action: utter_fifteen
+
+- story: Answer to sixteenth question 
+  steps:
+  - intent: sixteenth_question
+  - action: utter_sixteen
+
+- story: Answer to seventeenth question
+  steps:
+  - intent: seventeenth_question
+  - action: utter_seventeen
+
+- story: Answer to eighteenth question
+  steps:
+  - intent: eighteenth_question
+  - action: utter_eighteen
+
+- story: Answer to nineteenth question
+  steps:
+  - intent: nineteenth_question
+  - action: utter_nineteen
+
+- story: Answer to twentieth question
+  steps:
+  - intent: twentieth_question
+  - action: utter_twentie
+
+- story: Answer to twenty-first question
+  steps:
+  - intent: twenty_first_question
+  - action: utter_twenty_one
+
+- story: Answer to twenty-second question 
+  steps:
+  - intent: twenty_second_question
+  - action: utter_twenty_two
+
+- story: Answer to twenty-third question
+  steps:
+  - intent: twenty_third_question
+  - action: utter_twenty_three
+
+- story: Answer to twenty-fourth question
+  steps:
+  - intent: twenty_fourth_question
+  - action: utter_twenty_four
+
+- story: Answer to twenty-fifth question
+  steps:
+  - intent: twenty_fifth_question
+  - action: utter_twenty_five
+
+- story: Answer to twenty-sixth question
+  steps:
+  - intent: twenty_sixth_question
+  - action: utter_twenty_six
+
+- story: Answer to twenty-seventh question
+  steps:
+  - intent: twenty_seventh_question
+  - action: utter_twenty_seven
+
+- story: Answer to twenty-eighth question
+  steps:
+  - intent: twenty_eighth_question
+  - action: utter_twenty_eight
+
+- story: Answer to twenty-ninth question  
+  steps:
+  - intent: twenty_ninth_question
+  - action: utter_twenty_nine
+
+- story: Answer to thirtieth question
+  steps:
+  - intent: thirtieth_question
+  - action: utter_thirty
+
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye

@@ -1,0 +1,30 @@
+version: "3.1"
+
+rules:
+# - rule: Answer to first question 
+#   steps:
+#   - intent: first_question
+#   - action: first
+
+# - rule: Answer to second question
+#   steps:
+#   - intent: second_question
+#   - action: second
+
+- rule: Answer to third question
+  steps:
+  - intent: third_question
+  - action: utter_third
+
+
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+
+# rasa run --enable-api
