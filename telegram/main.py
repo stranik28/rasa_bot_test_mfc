@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://0.0.0.0:5005/webhooks/rest/webhook'
+url = 'http://rasa:5005/webhooks/rest/webhook'
 
 async def send_message(message, user):
     res = requests.post(url, json={"message":message, "sender":str(user)})

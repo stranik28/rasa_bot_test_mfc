@@ -20,4 +20,4 @@ EXPOSE 5005
 ENV NAME Rasa
 
 # Run rasa when the container launches
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--debug", "--endpoints", "endpoints.yml", "--port", "5005", "--credentials", "credentials.yml", "--log-file", "rasa.log"]
+CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "5005", "--log-file", "rasa.log"]
