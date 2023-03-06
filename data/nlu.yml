@@ -235,7 +235,7 @@ nlu:
     - Какой срок хранения у документов и результатов?
 
 
-- intent: twenty-first_question
+- intent: twenty_first_question
   examples: |
     - Где я могу узнать дату исполнения по услуге?
     - Как узнать срок исполнения услуги?
